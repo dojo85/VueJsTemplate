@@ -3,5 +3,11 @@ const app = Vue.createApp({
         return {
             greeting: "Hello World!"            
         }
+    },
+    computed: {
+
+    },
+    methods: {
+        
     }
 });
