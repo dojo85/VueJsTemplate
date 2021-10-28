@@ -11,3 +11,6 @@ const app = Vue.createApp({
         
     }
 });
+
+// mount. place components before this line
+const vm = app.mount('#app');
