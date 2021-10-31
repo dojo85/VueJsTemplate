@@ -1,6 +1,7 @@
 const app = Vue.createApp({
     data() {
         return {
+            headline: "My Vue.js template",
             greeting: "Hello World!"            
         }
     },
@@ -12,5 +13,5 @@ const app = Vue.createApp({
     }
 });
 
-// mount. place components before this line
+// mount the app.
 const vm = app.mount('#app');
